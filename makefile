@@ -3,4 +3,5 @@
 all: mybinary
 
 mybinary: a.txt
+    echo 'Building\!'
     sed 's/qqq/www/' a.txt > mybinary
